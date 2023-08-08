@@ -25,6 +25,7 @@ nav{
     border-radius: 20px;
     background-color: rgb(32, 43, 59);
     height: 90%;
+    color: #9399A2;
 }
 nav div{
     text-align: center;
@@ -32,6 +33,7 @@ nav div{
 }
 span{
     font-size: 20px;
+    
 }
 
 .animated-icon{
@@ -43,4 +45,7 @@ span{
 }
 h6{
     margin-top:5px;
+}
+.active{
+    color: #F0F1F1;
 }
