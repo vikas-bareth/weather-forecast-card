@@ -56,16 +56,44 @@ h6{
 .search-box input{
     width: 100%;
     padding: 10px;
-    margin: 20px 0px;
     border: none;
     border-radius: 10px;
     background-color: rgb(32, 43, 59);
     color: #F0F1F1;
+    margin-top: 20px;
 }
 
 input:focus{
     outline:1px solid #F0F1F1;
 }
+.results{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 35px;
+    margin: 20px 0px;
+}
+.left-div h2{
+    font-size: 33px;
+    margin-bottom: 3px;
+}
+.left-div p{
+    color: #9399A2;
+    font-size: small;
+}
+.left-div h1{
+    margin-top: 30px;
+    font-size: 50px;
+}
+.right-div{
+    width: 35%;
+    height: 100%;
+}
+.right-div img{
+    width: 100%;
+    height: 100%;
+    align-self: flex-start;
+}
+
 
 .day-forecast-container{
     display: flex;
@@ -77,6 +105,7 @@ input:focus{
     color:#9399A2;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 550;
+    font-size: smaller;
 }
 
 .day-times{
@@ -86,8 +115,81 @@ input:focus{
 }
 .forecast-divs{
     width: 80px;
-    border-right:1px solid #9399A2;
+    border-right:1px solid #4e4e4e8c;
+}
+.forecast-divs h4{
+    font-size: large;
+    color: #F0F1F1;
 }
 .day-last-time{
     border-right: 0;
+}
+.air-condition-container{
+    margin: 10px 0px;
+    padding: 20px;
+    background-color: rgb(32, 43, 59);
+    border: none;
+    border-radius: 20px;
+}
+.captions{
+    display: flex;
+    justify-content: space-between;
+}
+.captions span{
+    font-size: small;
+    color: #9399A2;
+    font-weight: 550;
+}
+.captions button{
+    font-size: 11px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: #0095FF;
+}
+/* .row1,.row2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row1 div span{
+    font-size: 15px;
+    font-weight: 400;
+}
+.row1 div h3{
+    font-size: medium;
+   
+} 
+.row2 div span{
+    font-size: 15px;
+    font-weight: 400;
+}
+.row2 div h3{
+    font-size: medium;
+    text-align: center;
+   
+}  */
+.row1{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side,.right-side{
+    display: flex;
+    gap: 10px;
+}
+.text-div{
+   line-height: 1.4;
+}
+.text-div p{
+    font-size: smaller;
+    color: #9399A2;
+}
+.row2{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-top: 20px;
 }
