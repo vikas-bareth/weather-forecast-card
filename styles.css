@@ -4,27 +4,28 @@
     padding: 0;
 }
 body{
-    background-color: black;
+    /* background-color: black; */
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
     padding:20px;
+    background-image: url('./images/background2.jpg');
+    background-size: cover;
 }
 .container{
     display: grid;
     grid-template-columns: 1fr 7fr 4fr;
     background-color: rgb(11, 19, 30);
-    width: 800px;
-    height: 600px;
+    width: 1000px;
     border-radius: 15px;
 }
 nav{
-    margin: 30px;
+    margin: 20px;
     padding: 12px;
     border-radius: 20px;
     background-color: rgb(32, 43, 59);
-    height: 90%;
+ ;
     color: #9399A2;
 }
 nav div{
@@ -50,9 +51,7 @@ h6{
     color: #F0F1F1;
 }
 
-/* .search-box{
-    width: 100%;
-} */
+
 .search-box input{
     width: 100%;
     padding: 10px;
@@ -60,7 +59,7 @@ h6{
     border-radius: 10px;
     background-color: rgb(32, 43, 59);
     color: #F0F1F1;
-    margin-top: 20px;
+  
 }
 
 input:focus{
@@ -125,7 +124,7 @@ input:focus{
     border-right: 0;
 }
 .air-condition-container{
-    margin: 10px 0px;
+    margin-top: 10px;
     padding: 20px;
     background-color: rgb(32, 43, 59);
     border: none;
@@ -148,28 +147,7 @@ input:focus{
     padding: 8px;
     background-color: #0095FF;
 }
-/* .row1,.row2{
-    display: flex;
-    justify-content: space-between;
-}
 
-.row1 div span{
-    font-size: 15px;
-    font-weight: 400;
-}
-.row1 div h3{
-    font-size: medium;
-   
-} 
-.row2 div span{
-    font-size: 15px;
-    font-weight: 400;
-}
-.row2 div h3{
-    font-size: medium;
-    text-align: center;
-   
-}  */
 .row1{
     margin-top: 15px;
     display: flex;
@@ -190,6 +168,53 @@ input:focus{
 .row2{
     display: flex;
     justify-content: space-between;
-    margin-right: 20px;
+    
     margin-top: 20px;
+}
+
+.week-forecast-container{
+    height: 85%;
+    background-color: rgb(32, 43, 59);
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    margin: 20px;
+    align-self: flex-end;
+}
+.week-day{
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+    align-items: center;
+    color: #9399A2;
+    padding: 12px;
+    border-bottom: 1px solid #47474796;
+    margin: 5px;
+ 
+}
+.day-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.day-img img{
+    width: 40px;
+    height: 40px;
+}
+.day-img span{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.forecast-caption{
+    margin: 20px 0 0 -13px;
+    color: #9399A2;
+    font-weight: bolder;
+    font-size: 14px;
+}
+.week-last-day{
+    border: none;
+}
+main{
+    margin: 20px;
 }
