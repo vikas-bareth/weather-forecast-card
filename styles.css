@@ -49,3 +49,45 @@ h6{
 .active{
     color: #F0F1F1;
 }
+
+/* .search-box{
+    width: 100%;
+} */
+.search-box input{
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(32, 43, 59);
+    color: #F0F1F1;
+}
+
+input:focus{
+    outline:1px solid #F0F1F1;
+}
+
+.day-forecast-container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(32, 43, 59);
+    border-radius: 20px;
+    padding: 20px;
+    gap: 20px;
+    color:#9399A2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+
+.day-times{
+    display: flex;
+    text-align: center;
+    padding: 10px;
+}
+.forecast-divs{
+    width: 80px;
+    border-right:1px solid #9399A2;
+}
+.day-last-time{
+    border-right: 0;
+}
